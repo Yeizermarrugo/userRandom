@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article > ul{
+  list-style: none;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 5, 76, 0.85);
+  width: 100%;
+  border-radius: 10%;
+  box-shadow: 0 0 20px black;
+  padding: 10px;
+  color: white;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn{
+  position: relative;
+  left: 40%;
+  margin-top: 10px;
+}
